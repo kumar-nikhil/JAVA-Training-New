@@ -1,6 +1,6 @@
-package basics;
+package labs;
 
-public class FileWriter {
+public class PhoneNumberApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
