@@ -17,6 +17,7 @@ public class PhoneNumberApp {
 		String phoneNum = null;
 		
 		try {
+			@SuppressWarnings("resource")
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			phoneNum =br.readLine();
 		} catch (FileNotFoundException e) {
